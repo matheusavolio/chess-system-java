@@ -33,11 +33,3 @@ public class Position {
         return row + ", " + colum;
     }
 }
-
-// First class: Position
-// Checklist:
-    //  Class Position [public]
-//  OOP Topics:
-// o Encapsulation
-// o Constructors
-// o ToString (Object / overriding)

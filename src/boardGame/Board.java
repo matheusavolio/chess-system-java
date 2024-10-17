@@ -38,13 +38,8 @@ public class Board {
         return pieces[position.getRow()][position.getColum()];
     }
 
-    // Starting to implement Board and Piece
-// Checklist:
-//  Classes Piece, Board [public]
-    //  OOP Topics:
-        // o Associations
-        // o Encapsulation / Access Modifiers
-    //  Data Structures Topics:
-        // o Matrix
-
+    public void placePiece (Piece piece, Position position){
+        pieces[position.getRow()][position.getColum()] = piece;
+        piece.position = position;
+    }
 }
