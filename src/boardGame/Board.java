@@ -29,4 +29,22 @@ public class Board {
     public void setColums(int colums) {
         this.colums = colums;
     }
+
+    public Piece piece (int row, int colum){
+        return pieces[row][colum];
+    }
+
+    public Piece piece (Position position){
+        return pieces[position.getRow()][position.getColum()];
+    }
+
+    // Starting to implement Board and Piece
+// Checklist:
+//  Classes Piece, Board [public]
+    //  OOP Topics:
+        // o Associations
+        // o Encapsulation / Access Modifiers
+    //  Data Structures Topics:
+        // o Matrix
+
 }
